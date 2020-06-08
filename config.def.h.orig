@@ -1,9 +1,6 @@
 /* ---------------------------------------------------------------------------------------- */
 /* Terminal colors (16 first used in escape sequence) */
 #include "base16-st/build/base16-zenburn-theme.h"
-/* bg opacity */
-float alpha = 0.99, alphaUnfocused = 0.8;
-unsigned int bg = 0, bgUnfocused = 0;
 /* ---------------------------------------------------------------------------------------- */
 /* See LICENSE file for copyright and license details. */
 
@@ -97,7 +94,6 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 2;
 
-
 /* Terminal colors (16 first used in escape sequence) */
 //static const char *colorname[] = {
 //	/* 8 normal colors */
@@ -136,6 +132,7 @@ unsigned int tabspaces = 2;
 //unsigned int defaultbg = 256;
 //static unsigned int defaultcs = 257;
 //static unsigned int defaultrcs = 256;
+
 
 
 /*
