@@ -1,3 +1,7 @@
+/* ---------------------------------------------------------------------------------------- */
+/* Terminal colors (16 first used in escape sequence) */
+#include "base16-st/build/base16-zenburn-theme.h"
+/* ---------------------------------------------------------------------------------------- */
 /* See LICENSE file for copyright and license details. */
 
 /*
@@ -129,47 +133,6 @@ unsigned int tabspaces = 2;
 //static unsigned int defaultcs = 257;
 //static unsigned int defaultrcs = 256;
 
-/* ---------------------------------------------------------------------------------------- */
-/* Terminal colors (16 first used in escape sequence) */
-static const char *colorname[] = {
-	/* 8 normal colors */
-	"#3f3f3f", /* black   */
-	"#df5555", /* red     */
-	"#50da7b", /* green   */
-	"#d1da5c", /* yellow  */
-	"#bde9fd", /* blue    */
-	"#df79c6", /* magenta */
-	"#5be6dd", /* cyan    */
-	"#dfdfdf", /* white   */
-
-	/* 8 bright colors */
-	"#4d4d4d", /* black   */
-	"#ff6e67", /* red     */
-	"#5af78e", /* green   */
-	"#f4f99d", /* yellow  */
-	"#caa9fa", /* blue    */
-	"#ff92d0", /* magenta */
-	"#9aedfe", /* cyan    */
-	"#e6e6e6", /* white   */
-
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#44475a", /* background */
-	"#fafafa", /* foreground */
-};
-
-
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
-
-/* ---------------------------------------------------------------------------------------- */
 
 
 /*
