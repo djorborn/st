@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------------------------------- */
 /* Terminal colors (16 first used in escape sequence) */
-#include "base16-st/build/base16-zenburn-theme.h"
+#include "panda-theme.h"
 /* bg opacity */
 float alpha = 0.99, alphaUnfocused = 0.8;
 unsigned int bg = 0, bgUnfocused = 0;
